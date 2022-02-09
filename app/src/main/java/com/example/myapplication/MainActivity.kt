@@ -22,7 +22,7 @@ import android.widget.Toast
         textView = findViewById(R.id.textView)
         editText = findViewById<EditText>(R.id.monPasswd)
 
-
+        // intent sur la bare de recherche puis le lien avec guide ..
 
         button?.setOnClickListener {
             val texteDeLEditText = editText?.text
